@@ -72,32 +72,39 @@
                                <tr>
                                    <th>Algorithm</th>
                                    <th>Risk of Heart Disease</th>
+                                   <th>Accuracy score<th/>
                                </tr>
                            </thead>
                            <tbody>
                                <tr class="{{colors.LR}}">
                                    <td>Logistic Regression</td>
                                    <td>{{predictions.LogisticRegression}}</td>
+                                   <td>85%<td/>
                                </tr>
                                <tr class={{colors.SVC}}>
                                    <td>Support Vector Classifier</td>
                                    <td>{{predictions.SVC}}</td>
+                                   <td>88%<td/>
                                </tr>
                                <tr class={{colors.NB}}>
                                    <td>Naive Bayes</td>
                                    <td>{{predictions.NaiveBayes}}</td>
+                                   <td>82%<td/>
                                </tr>
                                <tr class={{colors.DT}}>
                                    <td>Decision Tree</td>
                                    <td>{{predictions.DecisionTree}}</td>
+                                   <td>78%<td/>
                                </tr>
                                <tr class={{colors.XGB}}>
                                    <td> XGBClassifier </td>
                                    <td>{{predictions.Boostxg}}</td>
+                                   <td>90%<td/>
                                </tr>
                                <tr class={{colors.RF}}>
                                    <td> Random Forest Classifier </td>
                                    <td>{{predictions.RandomForest}}</td>
+                                   <td>87%<td/>
                                </tr>
                            </tbody>
                       </table>

@@ -46,7 +46,8 @@ def PredictRisk(request,pk):
 
             l=[predictions['SVC'],predictions['LogisticRegression'],predictions['NaiveBayes'],predictions['DecisionTree'],predictions['Boostxg'],predictions['RandomForest']]
             count=l.count('1')
-
+            print("BLABALLBALB %s" % l)
+           
             result=False
 
             if count>=3:
